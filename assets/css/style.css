@@ -1,3 +1,12 @@
+p {
+    margin: 0;
+}
+
+section {
+    margin-top: 1rem;
+}
+
+
 body {
     margin: 0 auto;
     max-width: 500px;
@@ -5,28 +14,70 @@ body {
     color: #111;
     font-family: system-ui;
 }
+
 header h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0;
 }
+
+header div {
+    margin-bottom: 1rem;
+}
+
 header div p {
     font-size: 0.9rem;
     font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 0;
 }
-#experience div:not(:first-of-type){
-    margin-top: 1rem;
-}
-#experience div p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#experience div p:first-of-type {
-    font-weight: 700;
-}
-#experience div p:not(:first-of-type){
+
+header > p {
     font-size: 0.9rem;
     font-weight: 300;
 }
+
+.timeline .entry:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+
+.timeline .entry p:first-of-type {
+    font-weight: 700;
+}
+
+.timeline .entry p:not(:first-of-type) {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#projects .project:not(:first-of-type) {
+    margin-top: 2rem;
+}
+
+.project-title {
+    font-weight: 700;
+}
+
+.project-desc {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.project-meta,
+.project-links {
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+#socials .entry p {
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
