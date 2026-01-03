@@ -1,0 +1,38 @@
+a {
+    text-decoration: underline;
+}
+a:hover {
+    opacity: 0.5;
+}
+body {
+    font-family: serif;
+    line-height: 1.4;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1.5rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+nav {
+    margin-bottom: 2rem;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+section + section {
+    margin-top: 3rem;
+}
+section h2 {
+    margin-bottom: 3rem;
+}
