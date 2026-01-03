@@ -1,38 +1,25 @@
-a {
-    text-decoration: underline;
-}
-a:hover {
-    opacity: 0.5;
-}
 body {
-    font-family: serif;
-    line-height: 1.4;
-    margin: 2rem auto;
-    max-width: 800px;
-    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 1rem;
+    color: #111;
+    font-family: system-ui;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+header h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
-nav li {
-    display: inline-block;
-    margin-right: 1rem;
+header div p {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-nav {
-    margin-bottom: 2rem;
-}
-nav a {
-    text-decoration: none;
-}
-nav a:hover {
-    opacity: 1;
-    text-decoration: underline;
-}
-section + section {
-    margin-top: 3rem;
-}
-section h2 {
+header div {
     margin-bottom: 3rem;
+}
+header + section {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
